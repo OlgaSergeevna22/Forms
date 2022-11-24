@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    background: url(images/lupa.png) no-repeat center / 35px aquamarine;
+    border: none;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+div {
+    border: 2px rgb(73, 14, 14) solid;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+input {
+    padding: 11px 10px 9px;
+    vertical-align: top;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+input::placeholder {
+    color: #ccc;
+}
+
+input:focus::placeholder {
+    opacity: 0;
+}

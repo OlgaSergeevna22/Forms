@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+form {
+    text-align: left;
+    width: 250px;
+    margin: auto;
+}
+
+.please {
+    font-weight: bold;
+}
+
+.easy {
+    margin: 10px auto 20px;
+    max-width: 500px;
+}
+
+.name input,
+.soname input {
+    width: 250px;
+    padding: 7px;
+    border: 2px rgb(206, 203, 203) solid;
+    border-radius: 5px;
+}
+
+.name input:focus::placeholder,
+.soname input:focus::placeholder {
+    color: rgb(163, 163, 163);
+}
+
+.name input:focus,
+.soname input:focus {
+    border: 2px rgb(206, 203, 203) solid;
+    border-radius: 5px;
+    outline: none;
+}
+
+.soname {
+    margin: 10px 0 20px;
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.day {
+    color: rgb(147, 147, 147);
+}
+
+select {
+    padding: 7px;
+    border: 2px rgb(206, 203, 203) solid;
+    border-radius: 5px;
+    margin: 10px 0 15px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(1, 171, 1);
+    color: white;
+    width: 250px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.or {
+    margin: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.or::after {
+    position: absolute;
+    bottom: -8px;
+    left: 40px;
+    content: " ";
+    background-image: url(images/lin.png);
+    content: " ";
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 30px;
+}
+
+.or::before {
+    position: absolute;
+    bottom: -8px;
+    right: 40px;
+    content: " ";
+    background-image: url(images/lin.png);
+    content: " ";
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 30px;
+}
+
+a {
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(18, 15, 234);
+    color: white;
+    width: 250px;
+    padding: 5px 0;
+    text-decoration: none;
+}

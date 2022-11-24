@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <div class="container">
+        <p class="please">Пожалуйста, укажите Ваше имя и фамилию.</p>
+        <p class="easy">Чтобы облегчит общение и поиск друзей, у нас приняты настоящие имена и фамилии.</p>
+        <form action="#">
+            <div class="name">
+                <input type="text" placeholder="Ваше имя" required>
+            </div>
+            <div class="soname">
+                <input type="text" placeholder="Ваша фамилия" required>
+            </div>
+            <p class="day">Дата рождения</p>
+            <div class="date">
+                <select required>
+                <option value="" hidden>День</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+                <select required>
+                <option value="" hidden>Месяц</option>
+                <option value="">Июнь</option>
+                <option value="">Июль</option>
+                <option value="">Август</option>
+
+            </select>
+                <select required>
+                <option value="" hidden>Год</option>
+                <option value="">1993</option>
+                <option value="">1994</option>
+                <option value="">1995</option>
+            </select>
+            </div>
+            <button>Зарегистрироваться</button>
+            <p class="or">или</p>
+            <a href="#">Продолжить с Facebook</a>
+        </form>
+    </div>
+
+</body>
+
+</html>
